@@ -1,0 +1,11 @@
+# Versions are unpinned unless the notebook itself specifies a version.
+numpy
+pandas
+scikit-learn
+lightgbm
+matplotlib
+joblib
+Pillow
+gradio==6.29.0
+# Install torch and torchvision separately using the official selector for
+# the chosen platform/CPU/CUDA runtime; no compatible combination was verified.

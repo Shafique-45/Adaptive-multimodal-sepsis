@@ -1,0 +1,43 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and credential files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+.aws/
+.ssh/
+*.p12
+*.pfx
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# Local system files and temporary output
+.DS_Store
+Thumbs.db
+tmp/
+temp/
+*.log
+
+# Raw/private or derived clinical data (never commit without explicit review)
+data/raw/
+data/private/
+data/
+datasets/
+*.psv
+*.pcap
+sepsis_raw_cache.pkl
+
+# Generated training outputs; source notebooks remain trackable
+/results/
+
+# Recoverable pre-edit copies created for this preparation task
+/adaptive-multimodal-sepsis-backup-20261017/
